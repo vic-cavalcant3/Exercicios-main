@@ -1,0 +1,71 @@
+@font-face {
+    font-family: Mon;
+    src: url(/EXERCICIOS1/Fonts/MontaguSlab-VariableFont_opsz\,wght.ttf);}
+
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-family: "Mon";}
+
+.container{
+    background-color: #3D2A33;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;}
+
+.nome{
+    text-align: left;
+    padding-left: 30px;
+    padding-right: 30px;
+    color: white;}
+
+a {
+    text-decoration: none;
+    color: white;
+   padding-left: 20px ;
+    padding-right: 30px;
+    transition: 0.5s ease-in-out;}
+
+a:hover{
+    color: #505371;}
+
+.inicio{
+    background-color:#794F47;
+    height: 300px;
+    padding-top: 40px;
+    padding-left: 40px;
+    padding-right: 60px;
+    display: flex;
+    justify-content: space-between;}
+
+.texto{
+    width: 700px;}
+.titulo{
+    padding-top: 30px;
+    color: white;
+    font-size: 48px;}
+.sobre{
+    width: 1200px;
+    padding-top:15px ;
+    color: white;
+    font-weight: 100;
+    font-size: 22px;}
+.caixas{
+    justify-content: center;
+    display: flex;
+    gap: 80px;}
+            
+.caixa{
+    text-align:  center;}
+
+.amigos{
+    width: 350px;
+    height: 400px;
+    padding-top: 50px;
+    padding-bottom: 30px;}
+
+.cantores{
+    background-color:#794F47;
+    padding-left: 40px;}
