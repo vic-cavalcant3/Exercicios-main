@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quadrinhos Up - Login</title>
+    <link rel="stylesheet" href="login.css">
+</head>
+<body>
+    <header class="top">
+
+        <img src="/EXERCICIO3/imgs/logo.png" alt="Logo" class="logo">
+
+        <div class="teste2">
+            <a href="index.html" class="botao">Home</a>
+            <a href="marvel.html" class="botao">Marvel</a>
+            <a href="dc.html" class="botao">DC</a>
+            <a href="login.html" class="botao">Login/Cadastro</a>
+        </div>
+    </header>
+
+    <div class="inicio">
+        <div class="texts">
+            <input type="text" placeholder="NOME COMPLETO" required>
+            <input type="email" placeholder="EMAIL" required>
+            <input type="tel" placeholder="TELEFONE" required>
+            <button class="enviar" onclick="enviarDados()">ENVIAR</button>
+        </div>
+    </div>
+
+    <script>
+        function enviarDados() {
+            // Exibe um alerta de sucesso
+            alert("Dados cadastrados com sucesso!");
+            // Redireciona para a página inicial
+            window.location.href = "index.html";
+        }
+    </script>
+</body>
+</html>

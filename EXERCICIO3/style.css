@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;}
+
+@font-face {
+    font-family: "play";
+    src: url(/EXERCICIO3/fonts/PlayfairDisplaySC-Regular.ttf);}
+
+    @font-face {
+        font-family: "bangers";
+        src: url(/EXERCICIO3/fonts/Bangers-Regular.ttf);}
+
+.top{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    background-color: #680818;}
+
+a{  
+    text-decoration: none;
+    color: white;
+    font-size: 30px ;}
+
+.teste2{
+    align-items: center;
+    display: flex;
+    align-items: center;
+    gap: 30PX;
+    padding-right: 50px;}
+
+.logo{
+    height: 120px;
+    width: 200px;}
+
+.inicio{
+    display: flex;
+    align-items: center;
+    height: 500px;
+    background-size: cover;
+    background-image: url(/EXERCICIO3/imgs/img\ 1\ \(2\).png);}
+
+.text{
+    text-shadow: 1px 1px 3px white;
+    font-family: "play2";
+    text-align: justify;
+    width: 800px;
+    padding: 0px 60px;
+    font-size: 25px;
+    color: white;}
+
+
+#revistas:hover{
+        color: #680818;
+        transform: scale(1.1);}
+        
+#revistas{
+    cursor: pointer;
+    padding-bottom: 30px;
+    padding-left: 90px;
+    padding-top: 60px;
+    font-size: 50px;
+    font-family: "bangers";
+    transition: color 0.3s ease, transform 0.3s ease;}
+
+.quadrinhos-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-top: 20px;
+    gap: 50px;
+    justify-content: center;
+    display: flex;}
+
+.caixa{
+    text-align: center;
+    align-items: center;}
+
+.titulo{
+    text-align: center;
+    font-family: "bangers";
+    font-size: 25px;}
+.subtitulo{
+    text-align: center;
+    font-family: "bangers";
+    font-size: 23px;
+}
+
+.quadrinho{
+    border-radius: 5px;
+    height: 350px;
+    width: 300px;}
+
+.oculto{
+    display: none;}
+
+
+    #revistas2:hover{
+        color: #680818;
+        transform: scale(1.1);}
+        
+#revistas2{
+    cursor: pointer;
+    padding-bottom: 30px;
+    padding-left: 90px;
+    padding-top: 150px;
+    font-size: 50px;
+    font-family: "bangers";
+    transition: color 0.3s ease, transform 0.3s ease;}
+
+    #revistas3:hover{
+        color: #680818;
+        transform: scale(1.1);}
+        
+#revistas3{
+    cursor: pointer;
+    padding-bottom: 30px;
+    padding-left: 90px;
+    padding-top: 150px;
+    font-size: 50px;
+    font-family: "bangers";
+    transition: color 0.3s ease, transform 0.3s ease;}
+
+    a:hover{
+        transform: scale(1.1);
+    }
+
+footer{
+    margin-top: 180px;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    background-color: #680818;
+}
+         
+
+
+

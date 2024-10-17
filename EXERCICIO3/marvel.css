@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;}
+
+@font-face {
+    font-family: "play";
+    src: url(/EXERCICIO3/fonts/PlayfairDisplaySC-Regular.ttf);}
+
+    @font-face {
+        font-family: "bangers";
+        src: url(/EXERCICIO3/fonts/Bangers-Regular.ttf);}
+
+.top{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    background-color: #680818;}
+
+a{  
+    text-decoration: none;
+    color: white;
+    font-size: 30px ;}
+
+.teste2{
+    align-items: center;
+    display: flex;
+    align-items: center;
+    gap: 30PX;
+    padding-right: 50px;}
+
+.logo{
+    height: 120px;
+    width: 200px;}
+
+    .inicio{
+        display: flex;
+        align-items: center;
+        height: 500px;
+        background-size: cover;
+        background-image: url(/EXERCICIO3/imgs/image\ \(11\).png);}
+    
+    .text{
+        text-shadow: 1px 1px 3px white;
+        font-family: "play2";
+        text-align: justify;
+        width: 800px;
+        padding: 0px 60px;
+        font-size: 25px;
+        color: white;}
+
+        .titulo{
+            text-align: center;
+            font-family: "bangers";
+            font-size: 25px;}
+        .subtitulo{
+            text-align: center;
+            font-family: "bangers";
+            font-size: 23px;}
+
+.caixas, .caixas2{
+    gap: 160px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    }
+.caixa, .caixa2{
+    padding-top: 80px;
+    text-align: center;
+    align-items: center;}
+
+a:hover{
+    transform: scale(1.1);
+}
+        

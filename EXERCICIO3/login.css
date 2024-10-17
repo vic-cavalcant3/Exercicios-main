@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+@font-face {
+    font-family: "play";
+    src: url(/EXERCICIO3/fonts/PlayfairDisplaySC-Regular.ttf);
+}
+
+@font-face {
+    font-family: "bangers";
+    src: url(/EXERCICIO3/fonts/Bangers-Regular.ttf);
+}
+
+.top{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    background-color: #680818;}
+
+a {  
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+}
+
+.teste2{
+    align-items: center;
+    display: flex;
+    align-items: center;
+    gap: 30PX;
+    padding-right: 50px;}
+
+a:hover {
+    transform: scale(1.1);
+}
+
+.logo{
+    height: 120px;
+    width: 200px;}
+
+.inicio {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: calc(100vh - 80px); 
+}
+
+.texts {
+    flex-direction: column;
+    display: flex;
+    gap: 10px; 
+}
+
+input {
+    width: 530px;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.enviar {
+    padding: 10px;
+    font-size: 18px;
+    background-color: #680818; 
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.enviar:hover {
+    background-color: #900909; 
+}
