@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;}
+
+body{
+    background-color: black;
+}
+
+header::before{
+    content: "";
+    inset: 0;
+    position: absolute;
+    z-index: -1;
+    background-image: url(/EXERCICIO4/imgs/vds/download\ \(1\).gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.4;}
+
+header{
+    height: 800px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+h1{
+    transform: translateY(0px);
+    animation: float 5s ease-in-out infinite;
+    color: #8B0000;
+    font-size: 80px;
+   text-shadow: 0px 0px 3px white;
+    text-align: center;}
+
+@keyframes float {
+    0%{
+        transform: translateY(0px);
+    }
+    50%{
+        transform: translateY(-60px);
+    }
+
+    100%{
+        transform: translateY(0px);}}
+    
+.inicio{
+    gap: 50px;
+    justify-content: center;
+    padding-top: 50px;
+    display: flex;
+    padding-left: 80px;
+    padding-bottom: 100px}
+
+.pietro{
+    align-items: center;
+    display: flex;
+    width: 700px;
+    text-align: justify;
+    font-size: 30px;
+    color: white;}
+.foto{
+    height: 450px;
+    width: 380px;
+}
+
+.gifs{
+    margin-bottom: 20px;
+    height: 500px;
+    background-size: cover;
+    background-image: url(/EXERCICIO4/imgs/vds/image.png);
+}
+
+h2{
+    color: #8B0000;
+    font-size: 80px;
+    text-shadow: 0px 0px 3px white;
+    text-align: center;
+}
